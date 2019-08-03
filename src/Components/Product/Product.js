@@ -10,7 +10,7 @@ class Product extends Component {
                     <div className="card-body">
                         <h5 className="card-title">{this.props.name}</h5>
                         <p className="card-text">{this.props.description}</p>
-                        <p className="text-right font-italic text-green">{this.props.price}</p>
+                        <p className="text-center font-italic text-green">{this.props.price}</p>
                         <div className="btn btn-primary">Comprar</div>
                     </div>
                 </div>
